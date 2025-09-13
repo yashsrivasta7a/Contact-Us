@@ -69,6 +69,9 @@
             display: flex;
             gap: 2rem;
             list-style: none;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
         }
 
         .nav-links a {
@@ -76,6 +79,12 @@
             text-decoration: none;
             font-size: 0.9rem;
             transition: color 0.3s;
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
         .nav-links a:hover {
@@ -272,8 +281,11 @@
 
         .footer-content {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
+            justify-content: center;
             align-items: center;
+            gap: 1rem;
+            text-align: center;
         }
 
         .footer-brand {
@@ -297,6 +309,8 @@
         .social-links {
             display: flex;
             gap: 1rem;
+            justify-content: center;
+            width: 100%;
         }
 
         .social-links a {
@@ -442,11 +456,7 @@
                     <img src="/logo.png" alt="Pacholi Suzuki Logo" class="footer-logo" />
                     <span>Pacholi Suzuki (Two Wheelers) in Gurgaon</span>
                 </div>
-                <div class="social-links">
-                    <a href="#" aria-label="Instagram">📷</a>
-                    <a href="#" aria-label="Facebook">📘</a>
-                    <a href="#" aria-label="Twitter">🐦</a>
-                </div>
+                <!-- Social links removed -->
             </div>
         </div>
     </footer>
