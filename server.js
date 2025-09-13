@@ -147,7 +147,7 @@ app.post('/api/subscribe', async (req, res) => {
         try {
             await resend.emails.send({
                 from: 'onboarding@resend.dev',
-                to: 'ysyashmks@gmail.com', // Your email to get notifications
+                to: 'financial.pacholisuzuki@gmail.com', // Your email to get notifications
                 subject: '🎉 New Newsletter Subscription!',
                 html: `
                     <h2>New Subscription Alert!</h2>
@@ -201,7 +201,7 @@ app.post('/api/contact', async (req, res) => {
         // Send email to admin using Resend
         const adminEmailResponse = await resend.emails.send({
             from: 'onboarding@resend.dev',
-            to: 'ysyashmks@gmail.com', // Admin email
+            to: 'financial.pacholisuzuki@gmail.com', // Admin email
             subject: `🔔 Contact Form: ${subject || 'New Contact Form Submission'}`,
             html: `
                 <!DOCTYPE html>

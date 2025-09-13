@@ -48,7 +48,7 @@ A modern, responsive landing page with integrated email newsletter functionality
    RESEND_API_KEY=re_TUCBzWSh_AzWmDvCy4Ds2nz13iy1YMoEM
    PORT=3000
    FROM_EMAIL=onboarding@resend.dev
-   NOTIFICATION_EMAIL=ysyashmks@gmail.com
+   NOTIFICATION_EMAIL=financial.pacholisuzuki@gmail.com
    ```
 
 4. **Start the server:**
@@ -179,7 +179,7 @@ npm run dev
 | `RESEND_API_KEY` | Your Resend API key | Required |
 | `PORT` | Server port | 3000 |
 | `FROM_EMAIL` | Sender email address | onboarding@resend.dev |
-| `NOTIFICATION_EMAIL` | Admin notification email | ysyashmks@gmail.com |
+| `NOTIFICATION_EMAIL` | Admin notification email | financial.pacholisuzuki@gmail.com|
 
 ## Troubleshooting 🔧
 
